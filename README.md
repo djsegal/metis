@@ -1,5 +1,5 @@
 # Projects for Metis Bootcamp
-### Author: Dan Segal
+### Author: [Dan Segal](http://seg.al)
 
 ----
 
