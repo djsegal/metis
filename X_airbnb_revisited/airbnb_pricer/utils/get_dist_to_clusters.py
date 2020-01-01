@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 
 from time import sleep
 from airbnb_pricer.utils.async_run import async_run
@@ -47,4 +48,4 @@ def get_dist_to_clusters(location_data, cluster_data):
         _get_cluster_dists, cluster_dists_iter
     )
 
-    return dist_list
+    return pd.DataFrame(dist_list)
